@@ -223,6 +223,9 @@ def unsqueeze(input, dim):
 # vsplit
 
 # vstack
+def vstack(input):
+    return ops.vstack(input)
+
 
 # where
 def where(condition, input, other):
